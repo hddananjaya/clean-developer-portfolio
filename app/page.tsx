@@ -146,10 +146,11 @@ export default function Page() {
             ))}
           </div>
         </section>
-
-        <Button asChild className="mt-8">
-          <Link href="mailto:hello@example.com">Get in touch</Link>
-        </Button>
+        <div className="pt-8">
+          <Button asChild>
+            <Link href="mailto:hello@example.com">Get in touch</Link>
+          </Button>
+        </div>
       </div>
     </main>
   );
