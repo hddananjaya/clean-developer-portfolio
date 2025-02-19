@@ -107,7 +107,12 @@ export default function Page() {
                 href: "https://gencode-interview.hirednow.ai/",
               },
             ].map((project, index) => (
-              <Link key={index} href={project.href} className="block group">
+              <Link
+                key={index}
+                href={project.href}
+                className="block group"
+                target="_blank"
+              >
                 <div className="rounded-lg border p-4 transition-colors hover:bg-muted/50">
                   <div className="flex items-center justify-between">
                     <h3 className="font-semibold">{project.title}</h3>
