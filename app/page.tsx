@@ -24,17 +24,20 @@ export default function Page() {
         />
 
         <div className="space-y-4">
-          <h1 className="text-4xl font-bold tracking-tight">Hi, I'm Akila!</h1>
+          <h1 className="text-4xl font-bold tracking-tight">
+            Hi, I&apos;m Akila!
+          </h1>
           <p className="text-lg text-muted-foreground">
-            I'm a Software Engineer from Sri Lanka.
+            I&apos;m a Software Engineer from Sri Lanka.
           </p>
         </div>
 
         <p className="max-w-[600px] text-muted-foreground">
           My passion for technology began in childhood when I was fascinated by
-          a notorious Sri Lankan computer virus called "Mahasona" and wanted to
-          recreate it. Now, I have over five years of experience in software
-          development and work as a <strong>Lead Full Stack Engineer</strong> at{" "}
+          a notorious Sri Lankan computer virus called &ldquo;Mahasona&rdquo;
+          and wanted to recreate it. Now, I have over five years of experience
+          in software development and work as a{" "}
+          <strong>Lead Full Stack Engineer</strong> at{" "}
           <Link
             className="text-blue-500 hover:underline"
             href="https://www.skillful.ly/"
